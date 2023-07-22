@@ -1,0 +1,36 @@
+[
+    {
+        "_id": {
+          "$oid": "64bbaa497496a5d98178fc9b"
+        },
+        "name": "Veggie Heaven",
+        "openingTime": "11:00 - 22:00",
+        "address": {
+          "street": "89 Serenity Lane",
+          "postcode": "3000",
+          "city": "Melbourne",
+          "_id": {
+            "$oid": "64bbaa497496a5d98178fc9c"
+          }
+        },
+        "coordinates": [
+          -37.8136,
+          144.9631
+        ],
+        "comments": [
+          {
+            "user": "Ella",
+            "comment": "Great options for vegans!",
+            "_id": {
+              "$oid": "64bbaa497496a5d98178fc9d"
+            }
+          }
+        ],
+        "tags": [
+          "Vegetarian",
+          "Healthy"
+        ],
+        "image": "https://images.unsplash.com/photo-1606854501969-1b9e0d0b3e59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1948&q=80",
+        "__v": 0
+      }
+]
