@@ -22,10 +22,10 @@ export const Searchbar = ({setSearchTag, setSearchCity}) => {
   }
 
   return (
-    <div style={{display: "flex", justifyContent: "center"}}>
+    <div className='searchBarWrapper'>
       <form 
       onSubmit={handleSubmit}
-      style={{display : "flex", padding : "3rem", gap : "1rem", maxWidth : 800}}>
+      className='searchBarForm'>
       <Form.Select aria-label="select restaurant by tag" onChange={handleTag}>
         <option>Select restaurant by tag</option>
         {

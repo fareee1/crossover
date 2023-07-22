@@ -1,0 +1,28 @@
+{
+  "_id": {
+    "$oid": "64bbaa497496a5d98178fc9b"
+  },
+  "name": "Veggie Heaven",
+  "openingTime": "11:00 - 22:00",
+  "address": {
+    "street": "89 Serenity Lane",
+    "postcode": "3000",
+    "city": "Melbourne",
+    "_id": {
+      "$oid": "64bbaa497496a5d98178fc9c"
+    }
+  },
+  "coordinates": [-37.8136, 144.9631],
+  "comments": [
+    {
+      "user": "Ella",
+      "comment": "Great options for vegans!",
+      "_id": {
+        "$oid": "64bbaa497496a5d98178fc9d"
+      }
+    }
+  ],
+  "tags": ["Vegetarian", "Healthy"],
+  "image": "https://toohotel.com/wp-content/uploads/2022/09/TOO_restaurant_Panoramique_vue_Paris_nuit_v2-scaled.jpg",
+  "__v": 0
+}
