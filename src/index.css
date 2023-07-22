@@ -32,3 +32,37 @@ code {
   margin: 0 auto;
   display: block;
 }
+
+.icon {
+  color: #fff;
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li svg {
+  cursor: pointer;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}
+  
