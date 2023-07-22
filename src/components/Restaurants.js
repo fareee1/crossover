@@ -23,7 +23,7 @@ export const Restaurants = ({ searchTag, searchCity }) => {
   //console.log(restaurants);
 
   return (
-    <>
+    <div className="restaurantList">
       {
         restaurants.length > 0 &&
         restaurants.map((restaurant) => {
@@ -38,6 +38,6 @@ export const Restaurants = ({ searchTag, searchCity }) => {
           )
         })
       }
-    </>
+    </div>
   )
 }
