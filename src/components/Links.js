@@ -11,7 +11,7 @@ export const Links = () => {
     <div>
       <ul className="links">
         <li>
-          <MdRestaurant className="icon" /><a href="#">Restaurants</a>
+          <MdRestaurant className="icon" /><a href="/">Restaurants</a>
         </li>
         <li>
           <MdOutlineLocalBar className="icon" /><a href="#">Nightlife</a>

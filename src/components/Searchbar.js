@@ -49,21 +49,21 @@ export const Searchbar = ({ setSearchTag, setSearchCity }) => {
     <div className="searchBarWrapper">
       <form onSubmit={handleSubmit} className="searchBarForm">
         <Form.Select aria-label="select restaurant by tag" onChange={handleTag}>
-          <option>Select restaurant by tag</option>
+          <option value=''>Select restaurant by tag</option>
           {tags.map((tag) => (
-            <option value={tag}>{tag}</option>
+            <option value={tag} key={tag}>{tag}</option>
           ))}
         </Form.Select>
         <Form.Select
           aria-label="select restaurant by city"
           onChange={handleCity}
         >
-          <option>Select restaurant by city</option>
+          <option value=''>Select restaurant by city</option>
           {cities.map((city) => (
-            <option value={city}>{city}</option>
+            <option value={city} key={city}>{city}</option>
           ))}
         </Form.Select>
-        <Button type="submit">Filter</Button>
+        {/* <Button type="submit">Filter</Button> */}
       </form>
     </div>
   );
